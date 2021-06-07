@@ -8,7 +8,7 @@ namespace Programas
 		
         static void Main(string[] args){
 
-			StreamReader leer = new StreamReader(File.OpenRead("C:\\Users\\juan_\\Desktop\\Programas\\Registro de datos.txt"));
+			StreamReader leer = new StreamReader(File.OpenRead("C:\\Users\\juan_\\Desktop\\PruebaB\\Registro-datos01\\Registro-de-datos.txt"));
 			
 			String contenido = leer.ReadToEnd();
 			
@@ -27,7 +27,7 @@ namespace Programas
 			
 			contenido = contenido + (cedula + "," + nombres + "," + apellidos + "," + edad);
 			
-			TextWriter escribir = new StreamWriter(File.OpenWrite("C:\\Users\\juan_\\Desktop\\Programas\\Registro de datos.txt"));
+			TextWriter escribir = new StreamWriter(File.OpenWrite("C:\\Users\\juan_\\Desktop\\PruebaB\\Registro-datos01\\Registro-de-datos.txt"));
 			
 			Console.WriteLine();
 			
